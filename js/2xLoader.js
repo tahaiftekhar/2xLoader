@@ -1,6 +1,6 @@
 var current, obj, current_index = 0;
 
-function onexload(){
+function twoXLoad(){
 	obj = $('[data-load]');
 	load_next();
 }

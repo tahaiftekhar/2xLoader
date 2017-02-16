@@ -13,7 +13,6 @@ HOW TO CHANGE ATTRIBUTES:
 Resources like images, videos, CSS files, JS files are linked in the project using attributes like src, href, etc.
 Change the link from 'src' or 'href' to 'data-load' and then provide 'src' or 'href' in 'data-load-type' attribute. Simple as that !!
 
-/*
 ---Example 1:
 -Change,
 -<img src="1.jpg">
@@ -25,7 +24,3 @@ Change the link from 'src' or 'href' to 'data-load' and then provide 'src' or 'h
 -<link rel="stylesheet" href="css/styles.css">
 -to
 -<link rel="stylesheet" data-load="css/styles.css" data-load-type="href">
-*/
-
-
-Note: All the files other than 'twoXLoad' within 'js' folder are just for demonstration purpose
